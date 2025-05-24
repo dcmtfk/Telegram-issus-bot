@@ -16,7 +16,7 @@ from typing import List
 client = OpenAI(api_key=os.getenv("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"))
 TELEGRAM_BOT_TOKEN = os.getenv("7960455014:AAGPnZhaZHt238vqCtOQS610NPRdF_3fn9g")
 HISTORY_FILE = "chat_history.json"
-ADMIN_IDS = {123456789}  # Вставь сюда свои ID админов
+ADMIN_IDS = {1786667442}  # Вставь сюда свои ID админов
 
 REPLY_TO_ALL = False
 MEMORY_ENABLED = True

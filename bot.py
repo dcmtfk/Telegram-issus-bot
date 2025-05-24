@@ -208,7 +208,7 @@ async def set_memory_command(update: Update, context: ContextTypes.DEFAULT_TYPE)
 if __name__ == '__main__':
     load_history()
 
-    app = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
+    app = ApplicationBuilder().token("7960455014:AAGPnZhaZHt238vqCtOQS610NPRdF_3fn9g").build()
 
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     app.add_handler(CommandHandler("menu", show_menu))

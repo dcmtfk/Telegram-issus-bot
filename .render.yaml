@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: military-chatgpt-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: 7960455014:AAGPnZhaZHt238vqCtOQS610NPRdF_3fn9g
+        sync: false
+      - key: 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
+        sync: false

@@ -228,7 +228,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f"⚠️ Ошибка: {str(e)}")
 
 def main():
-    app = Application.builder().token(TELEGRAM_TOKEN).build()
+    app = Application.builder().token('7960455014:AAGPnZhaZHt238vqCtOQS610NPRdF_3fn9g').build()
     
     # Команды
     app.add_handler(CommandHandler("start", start))

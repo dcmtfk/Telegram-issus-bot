@@ -12,10 +12,10 @@ from telegram.ext import (
 from openai import OpenAI
 
 # Конфигурация
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+TELEGRAM_TOKEN = os.getenv('7960455014:AAGPnZhaZHt238vqCtOQS610NPRdF_3fn9g')
+OPENAI_API_KEY = os.getenv('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')
 BOT_NAME = "ИИ"
-ADMIN_IDS = [123456789]  # Замените на ваш Telegram ID
+ADMIN_IDS = ['1786667442']  # Замените на ваш Telegram ID
 
 # Хранение данных в памяти
 bot_data = {

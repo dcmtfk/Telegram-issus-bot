@@ -1,3 +1,2 @@
-python-telegram-bot==20.7
-openai==1.82.0
-Flask
+python-telegram-bot==20.3
+openai>=1.0.0
